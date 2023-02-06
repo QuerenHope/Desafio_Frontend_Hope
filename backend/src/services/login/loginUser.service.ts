@@ -1,5 +1,5 @@
 import { compare } from "bcryptjs";
-import AppDataSource from "../../data-source";
+import {AppDataSource} from "../../data-source";
 import Users from "../../entities/users.entity";
 import AppError from "../../errors/AppError";
 import { ILogin } from "../../interfaces/login";

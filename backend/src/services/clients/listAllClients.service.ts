@@ -1,4 +1,4 @@
-import AppDataSource from "../../data-source";
+import { AppDataSource } from "../../data-source";
 import Clients from "../../entities/clients.entity";
 
 const listAllClientsService = async (): Promise<Clients[]> => {
