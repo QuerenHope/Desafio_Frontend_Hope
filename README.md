@@ -20,15 +20,17 @@ Html5 css react Typescript material-ui express express
 
 - Dentro da pasta BACKEND-EXPRESS crie o arquivo .env conforme o .env.example: troque o "postgres_user" e o "postgress_password" do DATABASE_URL e as demais variáveis pelos seus dados.
 
-DATABASE_URL="postgres://postgres_user:postgres_password@customer_base_db:5432/customer_base_db"
+DB_USER=
+
+DB_PASSWORD=
+
+DB_HOST=
+
+DB=
 
 SECRET_KEY=
 
-POSTGRES_USER=
-
-POSTGRES_PASSWORD=
-
-POSTGRES_DB=customer_base_db
+DATABASE_URL="postgres://<user>:<password>@<host>:<port>/<db>"
 
 
 - Na pasta raiz do projeto Fullstack, abra o terminal e execute o comando:
